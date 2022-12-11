@@ -28,4 +28,4 @@ def test_add_5():
 def test_add_6():
     assert 3+2 == 6, "failed"
 
-# Execute the test by py.test test_addition2.py -v
+# Execute the test by py.test test_skip.py -v

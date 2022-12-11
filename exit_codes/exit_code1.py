@@ -1,1 +1,0 @@
-prinkt("hello world!")

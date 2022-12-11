@@ -1,3 +1,5 @@
+# Using the fixture supply_AA_BB_CC from conftest.file. 
+
 
 
 def test_comparewithAA_file2(supply_AA_BB_CC):
@@ -6,7 +8,7 @@ def test_comparewithAA_file2(supply_AA_BB_CC):
 
 
 def test_comparewithBB_file2(supply_AA_BB_CC):
-    zz = 25
+    zz = 35
     assert supply_AA_BB_CC[1] == zz, "bb and zz comparison failed"
 
 
