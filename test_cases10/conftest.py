@@ -2,7 +2,7 @@ import pytest
 
 
 @pytest.fixture
-def supply_AA_BB_CC():
+def data_abc():
     aa = 25
     bb = 35
     cc = 45

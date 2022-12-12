@@ -24,15 +24,3 @@ def test_emp2(connect_db):
 @mark.fixture_example
 def test_emp3():
     print("no need db for third employee")
-
-
-
-
-
-# @fixture(autouse=True)
-# def abc():
-#     return 10
-
-
-# def test_emp1():
-#     assert 10 == abc
